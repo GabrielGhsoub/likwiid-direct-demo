@@ -1,0 +1,127 @@
+{
+  "slug": "sillage-du-sud",
+  "kind": "experience",
+  "brand": {
+    "name": "Sillage du Sud",
+    "tagline": {
+      "fr": "Le désert à pas lents",
+      "en": "The desert at walking pace"
+    },
+    "primary": "#B07A33",
+    "accent": "#1F2C4C",
+    "neutral": "#7A6A55",
+    "fontPairing": "modern"
+  },
+  "currency": "EUR",
+  "languages": ["fr", "en"],
+  "depositPercent": 30,
+  "images": {
+    "hero": "images/hero.jpg",
+    "gallery": ["images/gallery-caravane.jpg"]
+  },
+  "blockedDates": ["2026-08-07", "2026-08-08", "2026-08-21", "2026-08-22"],
+  "units": [
+    {
+      "id": "dunes-2j",
+      "name": {
+        "fr": "Trek des dunes, 2 jours",
+        "en": "Dune trek, 2 days"
+      },
+      "description": {
+        "fr": "Deux jours de marche sur les crêtes de sable, une nuit sous les étoiles au campement, le thé préparé sur la braise.",
+        "en": "Two days walking the sand ridges, one night under the stars at camp, tea brewed over the embers."
+      },
+      "image": "images/dunes.jpg",
+      "capacity": 8,
+      "basePrice": 95,
+      "priceUnit": "perPerson",
+      "options": ["selle", "nuit-camp", "aller-simple", "photographe"]
+    },
+    {
+      "id": "crepuscule",
+      "name": {
+        "fr": "Balade au crépuscule",
+        "en": "Sunset camel ride"
+      },
+      "description": {
+        "fr": "Une heure et demie à dos de dromadaire quand le sable devient cuivre, retour au camp à la nuit tombée.",
+        "en": "An hour and a half by camel as the sand turns to copper, back at camp as night falls."
+      },
+      "image": "images/crepuscule.jpg",
+      "capacity": 10,
+      "basePrice": 45,
+      "priceUnit": "perPerson",
+      "options": ["selle", "photographe"]
+    },
+    {
+      "id": "expedition-4j",
+      "name": {
+        "fr": "Expédition grand désert, 4 jours",
+        "en": "Deep desert expedition, 4 days"
+      },
+      "description": {
+        "fr": "Quatre jours loin des pistes, entre regs et grandes dunes, avec une petite caravane et des bivouacs différents chaque soir.",
+        "en": "Four days far from the tracks, across stony plains and high dunes, with a small caravan and a different bivouac each night."
+      },
+      "capacity": 6,
+      "basePrice": 240,
+      "priceUnit": "perPerson",
+      "blackoutDates": ["2026-09-11", "2026-09-12", "2026-09-13"],
+      "options": ["selle", "nuit-camp", "aller-simple", "photographe"]
+    }
+  ],
+  "options": [
+    {
+      "id": "selle",
+      "label": {
+        "fr": "Dromadaire sellé",
+        "en": "Saddled dromedary"
+      },
+      "description": {
+        "fr": "Votre propre monture sellée pour toute la sortie, guidée par un chamelier.",
+        "en": "Your own saddled mount for the whole outing, led by a camel handler."
+      },
+      "price": 25,
+      "rule": "perPerson"
+    },
+    {
+      "id": "nuit-camp",
+      "label": {
+        "fr": "Nuit supplémentaire au campement",
+        "en": "Extra night at camp"
+      },
+      "description": {
+        "fr": "Une nuit de plus sous la tente, avec dîner et petit déjeuner au feu de bois.",
+        "en": "One more night under canvas, with dinner and breakfast cooked over the fire."
+      },
+      "price": 40,
+      "rule": "perStay"
+    },
+    {
+      "id": "aller-simple",
+      "label": {
+        "fr": "Départ depuis une autre ville",
+        "en": "One way departure from another town"
+      },
+      "description": {
+        "fr": "Nous vous déposons dans une autre ville à la fin du trek, pour continuer votre route.",
+        "en": "We drop you in a different town at the end of the trek, so you can continue your journey."
+      },
+      "price": 30,
+      "rule": "flat"
+    },
+    {
+      "id": "photographe",
+      "label": {
+        "fr": "Photographe au coucher du soleil",
+        "en": "Sunset photographer"
+      },
+      "description": {
+        "fr": "Un photographe vous accompagne à l'heure dorée et vous remet vos images le lendemain.",
+        "en": "A photographer joins you at golden hour and hands over your pictures the next day."
+      },
+      "price": 60,
+      "rule": "flat"
+    }
+  ]
+}

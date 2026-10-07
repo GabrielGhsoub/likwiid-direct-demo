@@ -1,0 +1,145 @@
+{
+  "slug": "ana-likwiid",
+  "kind": "session",
+  "brand": {
+    "name": "Ana Likwiid Photography",
+    "primary": "#6E3B2C",
+    "accent": "#A98467",
+    "fontPairing": "editorial"
+  },
+  "currency": "EUR",
+  "languages": [
+    "pt",
+    "en",
+    "es"
+  ],
+  "bookingMode": "instant",
+  "depositPercent": 30,
+  "waitlist": true,
+  "policy": {
+    "pt": "O sinal reserva a sua sessão. Com mais de 5 dias de aviso, remarcamos sem custos. O restante paga-se no dia da sessão.",
+    "en": "The deposit reserves your session. With more than 5 days of notice we reschedule at no cost. The rest is paid on the day.",
+    "es": "La señal reserva su sesión. Con más de 5 días de aviso, cambiamos la fecha sin coste. El resto se paga el día de la sesión."
+  },
+  "units": [
+    {
+      "id": "mini-retrato",
+      "name": {
+        "pt": "Mini sessão de retrato",
+        "en": "Portrait mini session",
+        "es": "Mini sesión de retrato"
+      },
+      "description": {
+        "pt": "Trinta minutos ao fim da tarde, dez fotografias editadas, luz natural.",
+        "en": "Thirty minutes at golden hour, ten edited photographs, natural light.",
+        "es": "Treinta minutos al atardecer, diez fotografías editadas, luz natural."
+      },
+      "capacity": 4,
+      "basePrice": 120,
+      "priceUnit": "perSlot",
+      "deposit": {
+        "fixed": 40
+      },
+      "sessions": [
+        {
+          "id": "s1",
+          "dates": [
+            "2026-09-06"
+          ],
+          "start": "18:00",
+          "end": "18:30",
+          "capacity": 1
+        },
+        {
+          "id": "s2",
+          "dates": [
+            "2026-09-06"
+          ],
+          "start": "18:45",
+          "end": "19:15",
+          "capacity": 1,
+          "booked": 1
+        },
+        {
+          "id": "s3",
+          "dates": [
+            "2026-09-13"
+          ],
+          "start": "18:00",
+          "end": "18:30",
+          "capacity": 1
+        },
+        {
+          "id": "s4",
+          "dates": [
+            "2026-09-13"
+          ],
+          "start": "18:45",
+          "end": "19:15",
+          "capacity": 1
+        }
+      ]
+    },
+    {
+      "id": "familia",
+      "name": {
+        "pt": "Sessão de família",
+        "en": "Family session",
+        "es": "Sesión de familia"
+      },
+      "description": {
+        "pt": "Uma hora com toda a família, em casa ou ao ar livre, vinte fotografias editadas.",
+        "en": "One hour with the whole family, at home or outdoors, twenty edited photographs.",
+        "es": "Una hora con toda la familia, en casa o al aire libre, veinte fotografías editadas."
+      },
+      "capacity": 8,
+      "basePrice": 240,
+      "priceUnit": "perSlot",
+      "deposit": {
+        "fixed": 60
+      },
+      "sessions": [
+        {
+          "id": "f1",
+          "dates": [
+            "2026-09-20"
+          ],
+          "start": "10:00",
+          "end": "11:00",
+          "capacity": 1
+        },
+        {
+          "id": "f2",
+          "dates": [
+            "2026-09-27"
+          ],
+          "start": "10:00",
+          "end": "11:00",
+          "capacity": 1
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "id": "impressoes",
+      "label": {
+        "pt": "Caixa de dez impressões",
+        "en": "Box of ten prints",
+        "es": "Caja de diez impresiones"
+      },
+      "price": 45,
+      "rule": "flat"
+    },
+    {
+      "id": "pessoa-extra",
+      "label": {
+        "pt": "Pessoa adicional",
+        "en": "Additional person",
+        "es": "Persona adicional"
+      },
+      "price": 15,
+      "rule": "perPerson"
+    }
+  ]
+}

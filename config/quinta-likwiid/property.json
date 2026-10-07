@@ -1,0 +1,227 @@
+{
+  "slug": "quinta-likwiid",
+  "kind": "stay",
+  "brand": {
+    "name": "Quinta Likwiid",
+    "tagline": {
+      "pt": "Vinho, rio e silêncio no coração do Douro",
+      "en": "Wine, river and stillness in the heart of the Douro",
+      "es": "Vino, río y silencio en el corazón del Duero"
+    },
+    "primary": "#5E2735",
+    "accent": "#C2743F",
+    "neutral": "#6E6259",
+    "fontPairing": "editorial"
+  },
+  "currency": "EUR",
+  "languages": [
+    "pt",
+    "en",
+    "es"
+  ],
+  "depositPercent": 30,
+  "rules": {
+    "bufferDays": 1
+  },
+  "closedRanges": [
+    {
+      "from": "2026-11-10",
+      "to": "2026-11-24"
+    }
+  ],
+  "policy": {
+    "pt": "O sinal é devolvido na totalidade em cancelamentos até 7 dias antes da chegada. O restante paga-se na quinta, em dinheiro ou com cartão. O check in é a partir das 15:00.",
+    "en": "Your deposit is fully refundable if you cancel up to 7 days before arrival. The balance is paid at the property, in cash or by card. Check in is from 15:00.",
+    "es": "La señal se devuelve íntegramente si cancela hasta 7 días antes de la llegada. El resto se paga en la propiedad, en efectivo o con tarjeta. La entrada es a partir de las 15:00."
+  },
+  "images": {
+    "hero": "images/hero.jpg",
+    "gallery": [
+      "images/gallery-terraces.jpg"
+    ]
+  },
+  "blockedDates": [
+    "2026-08-14",
+    "2026-08-15",
+    "2026-08-16",
+    "2026-08-17",
+    "2026-08-29",
+    "2026-09-12",
+    "2026-09-26"
+  ],
+  "units": [
+    {
+      "id": "vinha",
+      "name": {
+        "pt": "Quarto Vinha",
+        "en": "Vinha Room",
+        "es": "Habitación Vinha"
+      },
+      "description": {
+        "pt": "Um quarto sereno virado para as vinhas em socalcos, com lençóis de linho e a luz do fim de tarde sobre o xisto.",
+        "en": "A calm room facing the terraced vineyard rows, with linen sheets and late afternoon light on the schist walls.",
+        "es": "Una habitación serena orientada a las viñas en terrazas, con sábanas de lino y la luz del atardecer sobre la pizarra."
+      },
+      "image": "images/vinha.jpg",
+      "capacity": 2,
+      "basePrice": 140,
+      "priceUnit": "perNight",
+      "seasonalPrices": [
+        {
+          "from": "2026-08-01",
+          "to": "2026-08-31",
+          "price": 165
+        }
+      ],
+      "options": [
+        "tasting",
+        "hamper",
+        "transfer",
+        "extranight"
+      ]
+    },
+    {
+      "id": "rio",
+      "name": {
+        "pt": "Quarto Rio",
+        "en": "Rio Room",
+        "es": "Habitación Rio"
+      },
+      "description": {
+        "pt": "Da cama vê-se o Douro a correr lá em baixo, entre socalcos. Ao amanhecer, a névoa sobe do rio até à janela.",
+        "en": "From the bed you watch the Douro flowing below, between the terraces. At dawn, the mist climbs from the river to your window.",
+        "es": "Desde la cama se ve el Duero correr allá abajo, entre terrazas. Al amanecer, la niebla sube del río hasta la ventana."
+      },
+      "image": "images/rio.jpg",
+      "capacity": 2,
+      "basePrice": 165,
+      "priceUnit": "perNight",
+      "rules": {
+        "minNights": 2
+      },
+      "blackoutDates": [
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-22",
+        "2026-08-23"
+      ],
+      "options": [
+        "tasting",
+        "hamper",
+        "transfer",
+        "extranight",
+        "rivertour"
+      ],
+      "icalFeeds": [
+        "feeds/ota-sample-2.ics"
+      ]
+    },
+    {
+      "id": "lagar",
+      "name": {
+        "pt": "Suite Lagar",
+        "en": "Lagar Suite",
+        "es": "Suite Lagar"
+      },
+      "description": {
+        "pt": "A antiga sala do lagar, hoje uma suite familiar de pé direito alto, com paredes de pedra e espaço para quatro.",
+        "en": "The old wine press room, now a high ceilinged family suite with stone walls and room for four.",
+        "es": "La antigua sala del lagar, hoy una suite familiar de techos altos, con paredes de piedra y espacio para cuatro."
+      },
+      "capacity": 4,
+      "basePrice": 210,
+      "priceUnit": "perNight",
+      "blackoutDates": [
+        "2026-09-05",
+        "2026-09-06"
+      ],
+      "options": [
+        "tasting",
+        "hamper",
+        "transfer",
+        "extranight",
+        "rivertour"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "id": "tasting",
+      "label": {
+        "pt": "Prova de vinhos",
+        "en": "Wine tasting",
+        "es": "Cata de vinos"
+      },
+      "description": {
+        "pt": "Prova guiada dos nossos vinhos, ao entardecer, no antigo lagar de pedra.",
+        "en": "A guided tasting of our wines at dusk, in the old stone press house.",
+        "es": "Cata guiada de nuestros vinos, al atardecer, en el antiguo lagar de piedra."
+      },
+      "price": 35,
+      "rule": "perPerson"
+    },
+    {
+      "id": "rivertour",
+      "label": {
+        "pt": "Passeio no rio Douro",
+        "en": "Douro river tour",
+        "es": "Paseo por el río Duero"
+      },
+      "description": {
+        "pt": "Duas horas de barco entre socalcos, com paragem para um mergulho quando o rio o permite.",
+        "en": "Two hours on the water between the terraces, with a stop for a swim when the river allows.",
+        "es": "Dos horas de barco entre terrazas, con parada para un baño cuando el río lo permite."
+      },
+      "price": 60,
+      "rule": "flat"
+    },
+    {
+      "id": "hamper",
+      "label": {
+        "pt": "Cesto de pequeno-almoço",
+        "en": "Breakfast hamper",
+        "es": "Cesta de desayuno"
+      },
+      "description": {
+        "pt": "Pão quente, queijo da serra, fruta da quinta e sumo de laranja, deixados à porta todas as manhãs.",
+        "en": "Warm bread, mountain cheese, fruit from the estate and orange juice, left at your door each morning.",
+        "es": "Pan caliente, queso de la sierra, fruta de la finca y zumo de naranja, junto a su puerta cada mañana."
+      },
+      "price": 18,
+      "rule": "perNight"
+    },
+    {
+      "id": "extranight",
+      "label": {
+        "pt": "Noite extra",
+        "en": "Extra night",
+        "es": "Noche extra"
+      },
+      "description": {
+        "pt": "Mais uma noite para ficar sem pressa, combinada diretamente connosco.",
+        "en": "One more night to linger, arranged directly with us.",
+        "es": "Una noche más para quedarse sin prisa, acordada directamente con nosotros."
+      },
+      "price": 140,
+      "rule": "perStay"
+    },
+    {
+      "id": "transfer",
+      "label": {
+        "pt": "Transfer do aeroporto do Porto",
+        "en": "Porto airport transfer",
+        "es": "Traslado desde el aeropuerto de Oporto"
+      },
+      "description": {
+        "pt": "Vamos buscá-lo ao aeroporto do Porto e trazemo-lo pela estrada do rio.",
+        "en": "We collect you at Porto airport and bring you in along the river road.",
+        "es": "Le recogemos en el aeropuerto de Oporto y le traemos por la carretera del río."
+      },
+      "price": 60,
+      "rule": "flat"
+    }
+  ],
+  "icalFeeds": [
+    "feeds/ota-sample-1.ics"
+  ]
+}

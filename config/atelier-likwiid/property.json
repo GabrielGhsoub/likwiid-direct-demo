@@ -1,0 +1,141 @@
+{
+  "slug": "atelier-likwiid",
+  "kind": "session",
+  "brand": {
+    "name": "Atelier Likwiid",
+    "tagline": {
+      "en": "A small ceramics studio in Porto",
+      "pt": "Um pequeno atelier de cerâmica no Porto",
+      "es": "Un pequeño taller de cerámica en Oporto"
+    },
+    "primary": "#A9512E",
+    "accent": "#14595E",
+    "neutral": "#8A7A6C",
+    "fontPairing": "classic"
+  },
+  "currency": "EUR",
+  "languages": ["en", "pt", "es"],
+  "depositPercent": 30,
+  "waitlist": true,
+  "rules": {
+    "leadTimeHours": 12
+  },
+  "policy": {
+    "en": "You can cancel free of charge up to 48 hours before your class, with a full refund. Closer to the class, your place may be offered to someone on the waitlist. All class materials are included in the price.",
+    "pt": "Pode cancelar sem custos até 48 horas antes da aula, com devolução total. Mais perto da aula, o seu lugar pode ser oferecido a alguém da lista de espera. Todos os materiais da aula estão incluídos no preço.",
+    "es": "Puede cancelar sin coste hasta 48 horas antes de la clase, con devolución íntegra. Más cerca de la clase, su plaza puede ofrecerse a alguien de la lista de espera. Todos los materiales de la clase están incluidos en el precio."
+  },
+  "blockedDates": ["2026-08-10", "2026-08-24", "2026-09-07", "2026-09-14"],
+  "units": [
+    {
+      "id": "roda",
+      "name": {
+        "en": "Wheel throwing class",
+        "pt": "Aula de torno de oleiro",
+        "es": "Clase de torno de alfarero"
+      },
+      "description": {
+        "en": "Two hours at the potter's wheel with clay, water and patient guidance. You will centre, pull and shape your first bowls.",
+        "pt": "Duas horas ao torno de oleiro, com barro, água e orientação paciente. Vai centrar, levantar e dar forma às suas primeiras taças.",
+        "es": "Dos horas al torno de alfarero, con barro, agua y una guía paciente. Centrará, levantará y dará forma a sus primeros cuencos."
+      },
+      "capacity": 8,
+      "basePrice": 45,
+      "priceUnit": "perSlot",
+      "slots": ["10:00", "15:00", "18:00"],
+      "slotCapacity": 8,
+      "slotBooked": {
+        "2026-08-11": { "10:00": 8, "15:00": 6 },
+        "2026-08-12": { "10:00": 8, "15:00": 6 }
+      },
+      "options": ["argila", "cozedura", "ferramentas"]
+    },
+    {
+      "id": "modelacao",
+      "name": {
+        "en": "Hand building workshop",
+        "pt": "Oficina de modelação manual",
+        "es": "Taller de modelado a mano"
+      },
+      "description": {
+        "en": "No wheel, just your hands. Pinch pots, coils and slabs, and a piece you will be glad to take home.",
+        "pt": "Sem torno, apenas as suas mãos. Técnicas de beliscado, rolos e placas, e uma peça que vai gostar de levar para casa.",
+        "es": "Sin torno, solo sus manos. Técnicas de pellizco, churros y planchas, y una pieza que le gustará llevarse a casa."
+      },
+      "capacity": 10,
+      "basePrice": 55,
+      "priceUnit": "perSlot",
+      "slots": ["11:00", "16:00"],
+      "options": ["argila", "cozedura", "ferramentas"]
+    },
+    {
+      "id": "privada",
+      "name": {
+        "en": "Private session for two",
+        "pt": "Sessão privada para dois",
+        "es": "Sesión privada para dos"
+      },
+      "description": {
+        "en": "The studio to yourselves, one teacher and two wheels. A quiet, unhurried way to learn together.",
+        "pt": "O atelier só para vocês, com um professor e dois tornos. Uma forma tranquila e sem pressas de aprender a dois.",
+        "es": "El taller para ustedes solos, con un profesor y dos tornos. Una manera tranquila y sin prisas de aprender en pareja."
+      },
+      "capacity": 2,
+      "basePrice": 120,
+      "priceUnit": "perSlot",
+      "slots": ["10:00", "14:00", "17:00"],
+      "slotCapacity": 2,
+      "slotBooked": {
+        "2026-08-18": { "14:00": 2 }
+      },
+      "options": ["argila", "cozedura", "ferramentas"]
+    }
+  ],
+  "options": [
+    {
+      "id": "argila",
+      "label": {
+        "en": "Extra clay kit",
+        "pt": "Kit de barro extra",
+        "es": "Kit de barro extra"
+      },
+      "description": {
+        "en": "An extra block of stoneware clay, in case one piece turns into three.",
+        "pt": "Um bloco extra de barro de grés, para o caso de uma peça se transformar em três.",
+        "es": "Un bloque extra de barro de gres, por si una pieza se convierte en tres."
+      },
+      "price": 12,
+      "rule": "perPerson"
+    },
+    {
+      "id": "cozedura",
+      "label": {
+        "en": "Firing and glazing",
+        "pt": "Cozedura e vidrado",
+        "es": "Cocción y esmaltado"
+      },
+      "description": {
+        "en": "We fire and glaze your finished pieces and have them ready to collect in about two weeks.",
+        "pt": "Cozemos e vidramos as suas peças, prontas a levantar no atelier em cerca de duas semanas.",
+        "es": "Cocemos y esmaltamos sus piezas, listas para recoger en unas dos semanas."
+      },
+      "price": 18,
+      "rule": "perPerson"
+    },
+    {
+      "id": "ferramentas",
+      "label": {
+        "en": "Take home tool set",
+        "pt": "Conjunto de ferramentas para levar",
+        "es": "Juego de herramientas para llevar"
+      },
+      "description": {
+        "en": "The same wooden and metal tools we use in class, yours to keep practising at home.",
+        "pt": "As mesmas ferramentas de madeira e metal que usamos na aula, para continuar a praticar em casa.",
+        "es": "Las mismas herramientas de madera y metal que usamos en clase, para seguir practicando en casa."
+      },
+      "price": 25,
+      "rule": "flat"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "slug": "escuela-likwiid",
+  "kind": "session",
+  "brand": {
+    "name": "Escuela Likwiid",
+    "tagline": {
+      "es": "Una pequeña escuela de vela y titulaciones náuticas",
+      "en": "A small sailing and boat licence school"
+    },
+    "primary": "#12395B",
+    "accent": "#5EAFA4",
+    "fontPairing": "modern"
+  },
+  "currency": "EUR",
+  "languages": ["es", "en"],
+  "bookingMode": "instant",
+  "depositPercent": 30,
+  "waitlist": true,
+  "paymentMethods": ["card", "bizum"],
+  "documentRetentionDays": 30,
+  "changePolicy": { "freeChanges": 1 },
+  "cancellation": {
+    "fullCreditDays": 7,
+    "creditExpiryMonths": 12
+  },
+  "adminUsers": ["Marta", "Jordi"],
+  "policy": {
+    "es": "La señal reserva su plaza en el curso. Si cancela con más de 7 días naturales de antelación, la señal se convierte en crédito válido durante 12 meses para cualquier otra convocatoria de la escuela. Con menos de 7 días, la señal se pierde. El primer cambio de fecha es gratuito; a partir del segundo, la señal se pierde. Si la escuela cancela por meteorología o por motivos de organización, se ofrece una nueva fecha sin coste o la devolución de la señal.",
+    "en": "The deposit reserves your place on the course. If you cancel with more than 7 days notice, the deposit becomes credit valid for 12 months towards any other sitting at the school. With less than 7 days notice, the deposit is forfeited. Your first date change is free; from the second one, the deposit is forfeited. If the school cancels for weather or organisational reasons, you are offered a new date at no cost or a refund of the deposit."
+  },
+  "confirmationExtras": {
+    "meetingPoint": {
+      "es": "Pantalán 3, Marina Likwiid",
+      "en": "Pantalan 3, Marina Likwiid"
+    },
+    "mapUrl": "https://maps.google.com/?q=39.4589,-0.3230",
+    "videoUrl": "https://likwiid.com/direct"
+  },
+  "strings": {
+    "es": {
+      "dates.guestsLabel": "Alumnos",
+      "dates.guest": "alumno",
+      "dates.guests": "alumnos",
+      "summary.guests": "Alumnos",
+      "summary.balanceDue": "Resto en la escuela",
+      "confirm.balanceOnArrival": "Resto a pagar en la escuela"
+    },
+    "en": {
+      "dates.guestsLabel": "Students",
+      "dates.guest": "student",
+      "dates.guests": "students",
+      "summary.guests": "Students",
+      "summary.balanceDue": "Balance at the school",
+      "confirm.balanceOnArrival": "Balance due at the school"
+    }
+  },
+  "units": [
+    {
+      "id": "curso-per",
+      "name": {
+        "es": "Curso PER",
+        "en": "PER licence course"
+      },
+      "description": {
+        "es": "El título de recreo más completo: teoría y práctica con nuestros instructores, en grupo reducido. Incluye material de estudio y acceso al vídeo de teoría.",
+        "en": "The most complete recreational licence: theory and practice with our instructors, in a small group. Study material and the theory video are included."
+      },
+      "capacity": 8,
+      "basePrice": 350,
+      "priceUnit": "perSlot",
+      "slotCapacity": 8,
+      "deposit": { "fixed": 90 },
+      "sessions": [
+        {
+          "id": "per-2026-09-05",
+          "dates": ["2026-09-05", "2026-09-06"],
+          "start": "09:00",
+          "end": "18:00",
+          "capacity": 8,
+          "booked": 8,
+          "label": {
+            "es": "Fin de semana intensivo",
+            "en": "Intensive weekend"
+          }
+        },
+        {
+          "id": "per-2026-09-12",
+          "dates": ["2026-09-12"],
+          "start": "09:00",
+          "end": "18:00",
+          "capacity": 8,
+          "booked": 3,
+          "label": {
+            "es": "Jornada extra de práctica",
+            "en": "Extra practice day"
+          }
+        },
+        {
+          "id": "per-2026-09-19",
+          "dates": ["2026-09-19", "2026-09-20"],
+          "start": "09:00",
+          "end": "18:00",
+          "capacity": 8,
+          "booked": 6,
+          "label": {
+            "es": "Fin de semana intensivo",
+            "en": "Intensive weekend"
+          }
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "id": "dni",
+          "label": {
+            "es": "DNI o pasaporte",
+            "en": "ID card or passport"
+          }
+        },
+        {
+          "id": "certificado-medico",
+          "label": {
+            "es": "Certificado médico",
+            "en": "Medical certificate"
+          }
+        },
+        {
+          "id": "autorizacion-menores",
+          "label": {
+            "es": "Autorización del tutor",
+            "en": "Guardian authorisation"
+          },
+          "minorsOnly": true
+        }
+      ],
+      "options": ["chaleco", "manual"]
+    },
+    {
+      "id": "licencia-navegacion",
+      "name": {
+        "es": "Licencia de navegación",
+        "en": "Boating licence day"
+      },
+      "description": {
+        "es": "El título más rápido: una mañana de teoría y práctica y sale navegando el mismo día. Sin examen.",
+        "en": "The quickest licence: one morning of theory and practice and you sail away the same day. No exam."
+      },
+      "capacity": 10,
+      "basePrice": 120,
+      "priceUnit": "perSlot",
+      "slotCapacity": 10,
+      "deposit": { "percent": 50 },
+      "sessions": [
+        {
+          "id": "lic-2026-09-09",
+          "dates": ["2026-09-09"],
+          "start": "09:00",
+          "end": "13:00",
+          "capacity": 10,
+          "booked": 4
+        },
+        {
+          "id": "lic-2026-09-16",
+          "dates": ["2026-09-16"],
+          "start": "09:00",
+          "end": "13:00",
+          "capacity": 10,
+          "booked": 9
+        },
+        {
+          "id": "lic-2026-09-23",
+          "dates": ["2026-09-23"],
+          "start": "09:00",
+          "end": "13:00",
+          "capacity": 10,
+          "booked": 2
+        },
+        {
+          "id": "lic-2026-09-26",
+          "dates": ["2026-09-26"],
+          "start": "09:00",
+          "end": "13:00",
+          "capacity": 10,
+          "booked": 6
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "id": "dni",
+          "label": {
+            "es": "DNI o pasaporte",
+            "en": "ID card or passport"
+          }
+        }
+      ],
+      "options": ["chaleco"]
+    },
+    {
+      "id": "radio-operador",
+      "name": {
+        "es": "Curso de radio",
+        "en": "Radio operator course"
+      },
+      "description": {
+        "es": "Operador de radio de corto alcance en simulador, en una sola jornada. Obligatorio para completar el PER.",
+        "en": "Short range radio operator on a simulator, in a single day. Required to complete the PER."
+      },
+      "capacity": 12,
+      "basePrice": 95,
+      "priceUnit": "perSlot",
+      "slotCapacity": 12,
+      "sessions": [
+        {
+          "id": "radio-2026-09-08",
+          "dates": ["2026-09-08"],
+          "start": "09:00",
+          "end": "14:00",
+          "capacity": 12,
+          "booked": 5
+        },
+        {
+          "id": "radio-2026-09-22",
+          "dates": ["2026-09-22"],
+          "start": "09:00",
+          "end": "14:00",
+          "capacity": 12,
+          "booked": 1
+        }
+      ],
+      "options": ["manual"]
+    }
+  ],
+  "options": [
+    {
+      "id": "chaleco",
+      "label": {
+        "es": "Alquiler de chaleco y neopreno",
+        "en": "Life vest and wetsuit rental"
+      },
+      "description": {
+        "es": "Chaleco y traje de neopreno para las prácticas, en su talla y listos en el pantalán.",
+        "en": "A life vest and wetsuit for the practical sessions, in your size and ready at the pontoon."
+      },
+      "price": 10,
+      "rule": "perPerson"
+    },
+    {
+      "id": "manual",
+      "label": {
+        "es": "Manual impreso",
+        "en": "Printed manual"
+      },
+      "description": {
+        "es": "El manual del curso impreso y encuadernado, para estudiar sin pantallas.",
+        "en": "The course manual, printed and bound, for studying away from screens."
+      },
+      "price": 15,
+      "rule": "flat"
+    }
+  ]
+}
